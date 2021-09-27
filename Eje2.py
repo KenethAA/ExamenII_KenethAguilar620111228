@@ -1,4 +1,3 @@
-
 ops = ['+','D','C']
 datos = True
 Datos = []
@@ -8,11 +7,11 @@ def buscar(r, e):
             return True
     return False
 
-def ops():
+def OPS():
     return input("----------Menu----------\n Ingresar valor de 0 a 9  \n Registrar = +, \n registro doble = D, \n Cancelar puntuacion anterior = C, \n Final = F\n Ingresar ops:")
 
 while datos == True:
-    operaciones = ops()
+    operaciones = OPS()
 
     isnumeric = operaciones.isnumeric()
 
